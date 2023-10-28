@@ -3,12 +3,8 @@ const app = express()
 const path = require("path")
 let port = 3002;
 
-app.get('/home',(req,res)=>{
-	res.sendFile(path.join(__dirname,'./views/home.html'));
-});
-
 app.get('/',(req,res)=>{
-	res.send('hola estas en about')
+	res.sendFile(path.join(__dirname,'./views/home.html'));
 });
 
 app.listen(port, ()=>{
@@ -17,4 +13,5 @@ app.listen(port, ()=>{
     http://localhost:${port}`);
 })
 
-app.use(express.static('public'));
+const carpetaPublic = path.resolve(__dirname,'./public')
+app.use(express.static(carpetaPublic));
