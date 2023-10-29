@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.titulares{
+    font-size:24px;
+}
+#precio{
+    font-size: 18px;
+}
+#descdesc{
+    font-size: 16px;
+}
+.centrado {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1259c3;
+    color:#FFFFFF;
+}
