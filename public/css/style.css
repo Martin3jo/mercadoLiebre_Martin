@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-color: #EAC926;
     font-family: 'Roboto', sans-serif;
     font-size: 12px;
 }
 .titulares{
+    width:100vh;
     font-size:24px;
 }
 #precio{
@@ -15,10 +15,17 @@ body {
     font-size: 16px;
 }
 .centrado {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 50vh;
+    left: 50vh;
     background-color: #1259c3;
     color:#FFFFFF;
+}
+
+header{
+    background-color: #EAC926;
+    width:100vh;
+    box-sizing:border-box;
+}
+img{
+    width:50vh;
 }
