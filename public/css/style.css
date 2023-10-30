@@ -45,24 +45,15 @@ footer i {
   margin-bottom: 10px;
   color: #1259c3;
 }
-<<<<<<< HEAD
-=======
 
-@media(max-width: 361px){
-  .descdesc{
-    display:none;
+@media (max-width: 361px) {
+  .descdesc {
+    display: none;
   }
 }
 
-@media (min-width: 361px){
-  
+@media (min-width: 361px) {
 }
 
-@media (min-width: 769px){
-  
+@media (min-width: 769px) {
 }
-
-.vosve{
-  background-color: red;
-}
->>>>>>> dd60d2814f44f9e37c6fc54806662ebb5118bdb9
