@@ -32,3 +32,13 @@ header{
     width:100vh;
     box-sizing:border-box;
 }
+
+footer{
+    width: 100vh;
+    text-align: center;
+}
+footer .i{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
