@@ -9,37 +9,18 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
 }
+
 /*Estilos en el header*/
+header {
+  background-color: #eac926;
+  width: 100vw;
+}
+a {
+  color: black;
+}
 .img-general {
   width: 30vw;
 }
-/*Estilos en el main*/
-main {
-  width: 90vw;
-  text-align: center;
-}
-.titulares {
-  width: 100vw;
-  font-size: 24px;
-}
-#precio {
-  font-size: 18px;
-}
-#descdesc {
-  font-size: 16px;
-}
-
-#centradoh3 {
-  text-align: center;
-  width: 100vw;
-}
-main div {
-  margin-bottom: 10px;
-}
-
-/*.burguer-menu {
-  text-align: center;
-}*/
 .burger-menu {
   color: white;
 
@@ -50,12 +31,28 @@ main div {
   color: white;
 }
 
-header {
-  background-color: #eac926;
+/*Estilos en el main*/
+main {
+  width: 90vw;
+  text-align: center;
+}
+.titulares {
+  width: 100vw;
+  font-size: 24px;
+}
+.precio {
+  font-size: 18px;
+}
+.descdesc {
+  font-size: 16px;
+}
+
+.centradoh3 {
+  text-align: center;
   width: 100vw;
 }
-a {
-  color: black;
+main div {
+  margin-bottom: 10px;
 }
 
 /*Estilos en el footer*/
