@@ -1,9 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+
 body {
   font-family: "Roboto", sans-serif;
   font-size: 12px;
@@ -15,51 +11,37 @@ img {
   width: 100vh;
   font-size: 24px;
 }
-.precio {
+#precio {
   font-size: 18px;
 }
-.descdesc {
+#descdesc {
   font-size: 16px;
 }
 
 #centradoh3 {
+  width: 100vh;
   text-align: center;
 }
 
-.burger-menu {
+.burger-menu button {
   text-align: center;
-}
-.button_blue{
-  background-color: #1259c3;
   color: white;
+  background-color: #1259c3;
 }
 
 header {
   background-color: #eac926;
-  width: 100%;
+  width: 100vh;
+  box-sizing: border-box;
 }
 
 /*Estilos en el footer*/
 footer {
-  width: 100%;
+  width: 100vh;
   text-align: center;
 }
 footer i {
   font-size: 2em;
   margin-bottom: 10px;
   color: #1259c3;
-}
-
-@media(max-width: 361px){
-  .descdesc{
-    display:none;
-  }
-}
-
-@media (min-width: 361px){
-  
-}
-
-@media (min-width: 769px){
-  
 }
