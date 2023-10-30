@@ -23,10 +23,12 @@ img {
   text-align: center;
 }
 
-.burger-menu button {
+.burger-menu {
   text-align: center;
-  color: white;
+}
+.button_blue{
   background-color: #1259c3;
+  color: white;
 }
 
 header {
