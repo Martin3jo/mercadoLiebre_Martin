@@ -13,7 +13,11 @@ body {
 .img-general {
   width: 30vw;
 }
-
+/*Estilos en el main*/
+main {
+  width: 90vw;
+  text-align: center;
+}
 .titulares {
   width: 100vw;
   font-size: 24px;
@@ -28,6 +32,9 @@ body {
 #centradoh3 {
   text-align: center;
   width: 100vw;
+}
+main div {
+  margin-bottom: 10px;
 }
 
 /*.burguer-menu {
@@ -46,6 +53,9 @@ body {
 header {
   background-color: #eac926;
   width: 100vw;
+}
+a {
+  color: black;
 }
 
 /*Estilos en el footer*/
