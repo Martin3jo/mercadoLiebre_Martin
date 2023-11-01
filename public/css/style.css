@@ -24,6 +24,13 @@ footer{
     text-align: center;
 }
 
+main{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
 /* Titulos de secciones*/
 
 .seccion-titulares{
@@ -35,7 +42,8 @@ footer{
 .producto-precio{
     font-size: 18px;
 }
-.producto-descuentos{
+.producto-descuento{
+    color: #39b54a;
     font-size: 16px;
 }
 .producto-descripciones{
@@ -79,6 +87,34 @@ div#boton button {
 footer i{
     color: #1E90FF;
 }
+
+/*iconos del main*/
+
+.circunferencia-icono {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: relative;
+    background-color: #ffffff; 
+    color: #39b54a;
+    border: 1px solid #39b54a;
+}
+
+.main i{
+    font-size: 5px;
+    position: absolute;
+    top: 0; 
+    left: 0;
+}
+
+/* Main - Division del mismo*/
+
+main section div{
+    margin: 10px;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
 
 
 /*Queri medias*/
