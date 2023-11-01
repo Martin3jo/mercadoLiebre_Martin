@@ -1,63 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 /* selectores princpiales*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    font-size: 12px;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
 }
 
-header{
-    background-color: #EAC926;
+header {
+  background-color: #eac926;
 }
 
-h3{
-    text-align: center;
+h3 {
+  text-align: center;
 }
 
-footer{
-    text-align: center;
+footer {
+  text-align: center;
 }
 
-main{
-    width: 90vw;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
+main {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 /* Titulos de secciones*/
 
-.seccion-titulares{
-    font-size: 24px;
+.seccion-titulares {
+  font-size: 24px;
 }
 
 /* seccion Productos*/
 
-.producto-precio{
-    font-size: 18px;
+.producto-precio {
+  font-size: 18px;
 }
-.producto-descuento{
-    color: #39b54a;
-    font-size: 16px;
+.producto-descuento {
+  color: #39b54a;
+  font-size: 16px;
 }
-.producto-descripciones{
-    margin-top: 20px;
-    font-size: 16px;
+.producto-descripciones {
+  margin-top: 20px;
+  font-size: 16px;
 }
 
 /* Imagenes size*/
 
-#logo-img{
-    width: 162px;
+#logo-img {
+  width: 162px;
 }
-#img-banner{
-    width: 100vw;
+#img-banner {
+  width: 100vw;
 }
 
 /*Iconos*/
@@ -65,68 +65,72 @@ main{
 /* boton burger y su divclass*/
 
 div#boton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 div#boton button {
-    background-color: #1E90FF;
-    color: white;
-    border-radius: 3px;
-    width: 30px;
-    height: 30px;
+  background-color: #1e90ff;
+  color: white;
+  border-radius: 3px;
+  width: 30px;
+  height: 30px;
 }
 
 /*Iconos del footer*/
 
-.iconos-footer{
-    size: 2em;
-    margin-bottom: 10px;
+.iconos-footer {
+  size: 2em;
+  margin-bottom: 10px;
 }
 
-footer i{
-    color: #1E90FF;
+footer i {
+  color: #1e90ff;
 }
 
 /*iconos del main*/
 
 .circunferencia-icono {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    position: relative;
-    background-color: #ffffff; 
-    color: #39b54a;
-    border: 1px solid #39b54a;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #ffffff;
+  color: #39b54a;
+  border: 1px solid #39b54a;
 }
 
-.main i{
-    font-size: 5px;
-    position: absolute;
-    top: 0; 
-    left: 0;
+.main i {
+  font-size: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /* Main - Division del mismo*/
 
-main section div{
-    margin: 10px;
-    border-top: 1px solid #ebebeb;
-    padding: 15px;
+main section div {
+  margin: 10px;
+  border-top: 1px solid #ebebeb;
+  padding: 15px;
 }
-
-
 
 /*Queri medias*/
 @media (max-width: 361px) {
-    .producto-descripciones {
+  .producto-descripciones {
     display: none;
-    }
+  }
 }
 
 @media (min-width: 361px) {
+  .Sombreado-articulo {
+    box-shadow: 0 0 10px rgb(100, 100, 100);
+  }
 }
 
 @media (min-width: 769px) {
+  .Sombreado-articulo {
+    box-shadow: 0 0 10px rgb(100, 100, 100);
+  }
 }
